@@ -1,0 +1,21 @@
+.grid-root {
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:51px;
+	width:100%;
+	height:calc(100% - 51px);
+	z-index: 2000;
+	pointer-events: none;
+	margin:0 auto;
+}
+.grid {
+	border-left:1px dashed #ccc;
+	//border-right:1px dashed #ccc;
+	height:100%;
+	.make-xs-column(1);
+	pointer-events: none;
+}
+.grid-right {
+	border-right:1px dashed #ccc;
+}

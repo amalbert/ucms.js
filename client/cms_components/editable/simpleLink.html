@@ -1,0 +1,17 @@
+<a ng-href="{{item.link}}">
+	<span editable ng-model="item.title">{{item.title}}</span>
+	<div class="popover popover-link" data-toggle="popover" data-placement="bottom">
+		<div class="form-inline popover-content">
+			<div class="form-group">
+			  <div class="input-group">
+			    <div class="input-group-addon">Link</div>
+			    <input type="text" ng-model="item.link" class="form-control" />
+			  </div>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-default">OK</button>
+			</div>
+		</div>
+	</div>
+</a>
+

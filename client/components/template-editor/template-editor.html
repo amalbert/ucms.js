@@ -1,0 +1,19 @@
+<div id="sidebar">
+  <div class="container">
+    <div class="row" style="background:#99c;">
+      <span class="label">
+        <button type="button" class="btn btn-default btn-xs" ng-click="toggleSidebar()">
+          <span id="sidebar-chevron" class="glyphicon glyphicon-chevron-right"></span>
+        </button>
+        Template editor</span>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <a ng-click="showTemplate()">Show template</a>
+        <input type="checkbox" ng-model="editMode" />Edit mode
+        <input type="checkbox" ng-model="showGrid"/>Show grid
+        <div grid ng-model="showGrid"/>
+      </div>
+    </div>
+  </div>
+</div>
